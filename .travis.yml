@@ -21,7 +21,7 @@ jdk:
 env:
     matrix:
         # Current
-        #- REDIS_VERSION=3.2.0 REDISSON_TEST=org.redisson.ConcurrentRedissonSortedSetTest
+        - REDIS_VERSION=3.2.0 REDISSON_TEST=org.redisson.ConcurrentRedissonSortedSetTest
         - REDIS_VERSION=3.2.0 REDISSON_TEST=org.redisson.RedisClientTest
         - REDIS_VERSION=3.2.0 REDISSON_TEST=org.redisson.RedissonAtomicDoubleTest
         - REDIS_VERSION=3.2.0 REDISSON_TEST=org.redisson.RedissonAtomicLongReactiveTest
