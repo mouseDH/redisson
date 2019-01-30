@@ -19,7 +19,7 @@ public class ConcurrentRedissonSortedSetTest extends BaseConcurrentTest {
     @Test
     public void testAdd_SingleInstance() throws InterruptedException {
         final String name = "testAdd_SingleInstance";
-
+throw new NullPointerException();
         RedissonClient r = BaseTest.createInstance();
         RSortedSet<Integer> map = r.getSortedSet(name);
         map.clear();
